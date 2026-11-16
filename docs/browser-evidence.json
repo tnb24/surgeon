@@ -1,0 +1,20 @@
+{
+  "text": [
+    "The city was quiet after the rain. In the distance, a man stood in the middle of the street, his face covered with a mask. He was wearing a black hooded",
+    "The city was quiet after the rain. In the distance, the wind was blowing.\n\n\"What's going on?\"\n\n\"What's going on? What's going"
+  ],
+  "errors": [],
+  "analysis": "12 tokens · 0.18s",
+  "checks": [
+    "live analysis",
+    "edited generation",
+    "next-token probabilities",
+    "bookmark",
+    "export/import",
+    "reset reproduces baseline",
+    "stop",
+    "baseline after stop",
+    "keyboard navigation",
+    "mobile overflow"
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "model": "openai-community/gpt2",
+  "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+  "prompt": "The movie was terrible. The acting was awful and the story was",
+  "edits": [
+    {
+      "layer": 6,
+      "neuron": 2374,
+      "mode": "add",
+      "value": 20,
+      "enabled": true
+    }
+  ],
+  "max_new": 32,
+  "result": {
+    "prompt": "The movie was terrible. The acting was awful and the story was",
+    "edits": [
+      {
+        "layer": 6,
+        "neuron": 2374,
+        "mode": "add",
+        "value": 20,
+        "enabled": true
+      }
+    ],
+    "max_new": 32,
+    "baseline": " terrible. I was so disappointed. I was so disappointed. I was so disappointed. I was so disappointed. I was so disappointed. I was so disappointed.",
+    "modified": " the story the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the",
+    "timing": {
+      "baseline": 1.7639887999976054,
+      "modified": 1.8042901000007987
+    },
+    "probabilities": [
+      {
+        "token": " the",
+        "baseline": 0.002795671345666051,
+        "modified": 0.08836259692907333
+      },
+      {
+        "token": " all",
+        "baseline": 0.007475556340068579,
+        "modified": 0.03110160119831562
+      },
+      {
+        "token": " I",
+        "baseline": 0.00020987620519008487,
+        "modified": 0.017199408262968063
+      },
+      {
+        "token": " interesting",
+        "baseline": 0.0008140461868606508,
+        "modified": 0.016792654991149902
+      },
+      {
+        "token": " not",
+        "baseline": 0.019899070262908936,
+        "modified": 0.018473822623491287
+      },
+      {
+        "token": " a",
+        "baseline": 0.03232353925704956,
+        "modified": 0.02990007773041725
+      },
+      {
+        "token": " really",
+        "baseline": 0.027500314638018608,
+        "modified": 0.01766284741461277
+      },
+      {
+        "token": " very",
+        "baseline": 0.02629770152270794,
+        "modified": 0.012587005272507668
+      },
+      {
+        "token": " so",
+        "baseline": 0.054627519100904465,
+        "modified": 0.02978714369237423
+      },
+      {
+        "token": " bad",
+        "baseline": 0.039156265556812286,
+        "modified": 0.00912743154913187
+      },
+      {
+        "token": " horrible",
+        "baseline": 0.04826750233769417,
+        "modified": 0.008264715783298016
+      },
+      {
+        "token": " awful",
+        "baseline": 0.04868876561522484,
+        "modified": 0.0031664599664509296
+      },
+      {
+        "token": " terrible",
+        "baseline": 0.08044832944869995,
+        "modified": 0.011845615692436695
+      }
+    ],
+    "cancelled": false
+  }
+}

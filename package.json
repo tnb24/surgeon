@@ -1,0 +1,31 @@
+{
+  "name": "surgeon",
+  "description": "GPT-2 neuron playground: inspect MLP activations, edit neurons, and compare completions.",
+  "private": true,
+  "version": "0.1.0",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/py.mjs scripts/dev.py",
+    "build": "tsc -b && vite build",
+    "start": "node scripts/py.mjs -m uvicorn backend.server:app --host 127.0.0.1 --port 8791",
+    "model": "node scripts/py.mjs scripts/download_model.py",
+    "test": "node scripts/py.mjs -m pytest tests -q",
+    "test:browser": "node scripts/browser_check.mjs --live",
+    "format": "prettier --write web scripts index.html"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "prettier": "^3.9.10",
+    "typescript": "~5.7.2",
+    "vite": "^6.0.0"
+  }
+}

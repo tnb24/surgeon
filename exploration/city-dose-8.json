@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "model": "openai-community/gpt2",
+  "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+  "prompt": "The city was quiet after the rain. In the distance,",
+  "edits": [
+    {
+      "layer": 6,
+      "neuron": 2130,
+      "mode": "add",
+      "value": 8,
+      "enabled": true
+    }
+  ],
+  "max_new": 32,
+  "result": {
+    "prompt": "The city was quiet after the rain. In the distance,",
+    "edits": [
+      {
+        "layer": 6,
+        "neuron": 2130,
+        "mode": "add",
+        "value": 8,
+        "enabled": true
+      }
+    ],
+    "max_new": 32,
+    "baseline": " a man stood in the middle of the street, his face covered with a mask. He was wearing a black hooded sweatshirt and a black jacket. He",
+    "modified": " the wind was blowing.\n\n\"I'm not sure what's going on here,\" said the girl.\n\n\"I don't know what's going",
+    "timing": {
+      "baseline": 1.8208240999956615,
+      "modified": 1.832369199997629
+    },
+    "probabilities": [
+      {
+        "token": " the",
+        "baseline": 0.1381431519985199,
+        "modified": 0.15313869714736938
+      },
+      {
+        "token": " there",
+        "baseline": 0.042520396411418915,
+        "modified": 0.04905785247683525
+      },
+      {
+        "token": " people",
+        "baseline": 0.014068244025111198,
+        "modified": 0.01966826431453228
+      },
+      {
+        "token": " we",
+        "baseline": 0.0074639529921114445,
+        "modified": 0.011930497363209724
+      },
+      {
+        "token": " I",
+        "baseline": 0.02339704893529415,
+        "modified": 0.024673106148838997
+      },
+      {
+        "token": " it",
+        "baseline": 0.015268486924469471,
+        "modified": 0.016045911237597466
+      },
+      {
+        "token": " an",
+        "baseline": 0.017846858128905296,
+        "modified": 0.016838438808918
+      },
+      {
+        "token": " two",
+        "baseline": 0.015472530387341976,
+        "modified": 0.00964452512562275
+      },
+      {
+        "token": " a",
+        "baseline": 0.17914187908172607,
+        "modified": 0.15299038589000702
+      }
+    ],
+    "cancelled": false
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "model": "openai-community/gpt2",
+  "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+  "prompt": "def fibonacci(n):\n    if n <= 1:\n        return n\n    return",
+  "edits": [
+    {
+      "layer": 6,
+      "neuron": 2081,
+      "mode": "ablate",
+      "value": 0,
+      "enabled": true
+    }
+  ],
+  "max_new": 32,
+  "result": {
+    "prompt": "def fibonacci(n):\n    if n <= 1:\n        return n\n    return",
+    "edits": [
+      {
+        "layer": 6,
+        "neuron": 2081,
+        "mode": "ablate",
+        "value": 0,
+        "enabled": true
+      }
+    ],
+    "max_new": 32,
+    "baseline": " fibonacci(n)\n\nreturn fibonacci(n)\n\ndef fibonacci(n):\n\nreturn fibonacci(n",
+    "modified": " fibonacci(n)\n\nreturn fibonacci(n)\n\ndef fibonacci(n):\n\nreturn fibonacci(n",
+    "probabilities": [
+      {
+        "token": " 1",
+        "baseline": 0.10010486096143723,
+        "modified": 0.1050330102443695
+      },
+      {
+        "token": " 0",
+        "baseline": 0.0991622805595398,
+        "modified": 0.10244426131248474
+      },
+      {
+        "token": " (",
+        "baseline": 0.04277756065130234,
+        "modified": 0.04582569748163223
+      },
+      {
+        "token": " -",
+        "baseline": 0.037493593990802765,
+        "modified": 0.03772827982902527
+      },
+      {
+        "token": " 2",
+        "baseline": 0.01658458262681961,
+        "modified": 0.016504159197211266
+      },
+      {
+        "token": " ",
+        "baseline": 0.02218271978199482,
+        "modified": 0.02026626281440258
+      },
+      {
+        "token": " n",
+        "baseline": 0.17195910215377808,
+        "modified": 0.16492146253585815
+      },
+      {
+        "token": " fib",
+        "baseline": 0.18247364461421967,
+        "modified": 0.17314109206199646
+      }
+    ]
+  }
+}

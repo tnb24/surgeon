@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "model": "openai-community/gpt2",
+  "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+  "prompt": "The movie was terrible. The acting was awful and the story was",
+  "edits": [
+    {
+      "layer": 11,
+      "neuron": 611,
+      "mode": "add",
+      "value": 20,
+      "enabled": true
+    }
+  ],
+  "max_new": 32,
+  "result": {
+    "prompt": "The movie was terrible. The acting was awful and the story was",
+    "edits": [
+      {
+        "layer": 11,
+        "neuron": 611,
+        "mode": "add",
+        "value": 20,
+        "enabled": true
+      }
+    ],
+    "max_new": 32,
+    "baseline": " terrible. I was so disappointed. I was so disappointed. I was so disappointed. I was so disappointed. I was so disappointed. I was so disappointed.",
+    "modified": " so bad. I was so disappointed. I was so disappointed. I was so disappointed. I was so disappointed. I was so disappointed. I was so disappointed",
+    "probabilities": [
+      {
+        "token": " a",
+        "baseline": 0.03232353925704956,
+        "modified": 0.03779482841491699
+      },
+      {
+        "token": " really",
+        "baseline": 0.027500314638018608,
+        "modified": 0.026521878316998482
+      },
+      {
+        "token": " very",
+        "baseline": 0.02629770152270794,
+        "modified": 0.025228699669241905
+      },
+      {
+        "token": " so",
+        "baseline": 0.054627519100904465,
+        "modified": 0.05323422700166702
+      },
+      {
+        "token": " bad",
+        "baseline": 0.039156265556812286,
+        "modified": 0.036564990878105164
+      },
+      {
+        "token": " awful",
+        "baseline": 0.04868876561522484,
+        "modified": 0.031107211485505104
+      },
+      {
+        "token": " horrible",
+        "baseline": 0.04826750233769417,
+        "modified": 0.028583064675331116
+      },
+      {
+        "token": " terrible",
+        "baseline": 0.08044832944869995,
+        "modified": 0.050956375896930695
+      }
+    ]
+  }
+}

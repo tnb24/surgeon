@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "model": "openai-community/gpt2",
+  "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+  "prompt": "The capital of France is",
+  "edits": [
+    {
+      "layer": 6,
+      "neuron": 1988,
+      "mode": "ablate",
+      "value": 0,
+      "enabled": true
+    }
+  ],
+  "max_new": 32,
+  "result": {
+    "prompt": "The capital of France is",
+    "edits": [
+      {
+        "layer": 6,
+        "neuron": 1988,
+        "mode": "ablate",
+        "value": 0,
+        "enabled": true
+      }
+    ],
+    "max_new": 32,
+    "baseline": " the capital of the French Republic, and the capital of the French Republic is the capital of the French Republic.\n\nThe French Republic is the capital of the",
+    "modified": " the capital of the French Republic. The capital of France is the capital of the French Republic.\n\nThe capital of France is the capital of the French Republic",
+    "probabilities": [
+      {
+        "token": " Paris",
+        "baseline": 0.03224453330039978,
+        "modified": 0.04137955978512764
+      },
+      {
+        "token": " the",
+        "baseline": 0.084590844810009,
+        "modified": 0.08605049550533295
+      },
+      {
+        "token": " in",
+        "baseline": 0.026641054078936577,
+        "modified": 0.0277362372726202
+      },
+      {
+        "token": " also",
+        "baseline": 0.026405513286590576,
+        "modified": 0.02694941684603691
+      },
+      {
+        "token": " not",
+        "baseline": 0.023828651756048203,
+        "modified": 0.023215195164084435
+      },
+      {
+        "token": " France",
+        "baseline": 0.03237666189670563,
+        "modified": 0.031007707118988037
+      },
+      {
+        "token": " now",
+        "baseline": 0.047946080565452576,
+        "modified": 0.04573700204491615
+      },
+      {
+        "token": " a",
+        "baseline": 0.046159274876117706,
+        "modified": 0.0426240935921669
+      }
+    ]
+  }
+}

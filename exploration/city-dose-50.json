@@ -1,0 +1,88 @@
+{
+  "version": 1,
+  "model": "openai-community/gpt2",
+  "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+  "prompt": "The city was quiet after the rain. In the distance,",
+  "edits": [
+    {
+      "layer": 6,
+      "neuron": 2130,
+      "mode": "add",
+      "value": 50,
+      "enabled": true
+    }
+  ],
+  "max_new": 32,
+  "result": {
+    "prompt": "The city was quiet after the rain. In the distance,",
+    "edits": [
+      {
+        "layer": 6,
+        "neuron": 2130,
+        "mode": "add",
+        "value": 50,
+        "enabled": true
+      }
+    ],
+    "max_new": 32,
+    "baseline": " a man stood in the middle of the street, his face covered with a mask. He was wearing a black hooded sweatshirt and a black jacket. He",
+    "modified": " the air was a little more of a wind, the air that the air of the air of the air of the air of the air of the air of the",
+    "probabilities": [
+      {
+        "token": " the",
+        "baseline": 0.1381431519985199,
+        "modified": 0.1647508293390274
+      },
+      {
+        "token": " other",
+        "baseline": 0.0013123196549713612,
+        "modified": 0.011932097375392914
+      },
+      {
+        "token": " air",
+        "baseline": 0.00024201687483582646,
+        "modified": 0.010321958921849728
+      },
+      {
+        "token": " you",
+        "baseline": 0.008744506165385246,
+        "modified": 0.011923816986382008
+      },
+      {
+        "token": " an",
+        "baseline": 0.017846858128905296,
+        "modified": 0.020723262801766396
+      },
+      {
+        "token": " I",
+        "baseline": 0.02339704893529415,
+        "modified": 0.016112657263875008
+      },
+      {
+        "token": " it",
+        "baseline": 0.015268486924469471,
+        "modified": 0.006435337010771036
+      },
+      {
+        "token": " people",
+        "baseline": 0.014068244025111198,
+        "modified": 0.005024000536650419
+      },
+      {
+        "token": " two",
+        "baseline": 0.015472530387341976,
+        "modified": 0.0021522976458072662
+      },
+      {
+        "token": " there",
+        "baseline": 0.042520396411418915,
+        "modified": 0.022749202325940132
+      },
+      {
+        "token": " a",
+        "baseline": 0.17914187908172607,
+        "modified": 0.10724426805973053
+      }
+    ]
+  }
+}

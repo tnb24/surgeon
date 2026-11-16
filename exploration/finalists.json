@@ -1,0 +1,553 @@
+[
+  {
+    "name": "city-dose-8",
+    "prompt": "The city was quiet after the rain. In the distance,",
+    "edits": [
+      {
+        "layer": 6,
+        "neuron": 2130,
+        "mode": "add",
+        "value": 8,
+        "enabled": true
+      }
+    ],
+    "max_new": 32,
+    "baseline": " a man stood in the middle of the street, his face covered with a mask. He was wearing a black hooded sweatshirt and a black jacket. He",
+    "modified": " the wind was blowing.\n\n\"I'm not sure what's going on here,\" said the girl.\n\n\"I don't know what's going",
+    "probabilities": [
+      {
+        "token": " the",
+        "baseline": 0.1381431519985199,
+        "modified": 0.15313869714736938
+      },
+      {
+        "token": " there",
+        "baseline": 0.042520396411418915,
+        "modified": 0.04905785247683525
+      },
+      {
+        "token": " people",
+        "baseline": 0.014068244025111198,
+        "modified": 0.01966826431453228
+      },
+      {
+        "token": " we",
+        "baseline": 0.0074639529921114445,
+        "modified": 0.011930497363209724
+      },
+      {
+        "token": " I",
+        "baseline": 0.02339704893529415,
+        "modified": 0.024673106148838997
+      },
+      {
+        "token": " it",
+        "baseline": 0.015268486924469471,
+        "modified": 0.016045911237597466
+      },
+      {
+        "token": " an",
+        "baseline": 0.017846858128905296,
+        "modified": 0.016838438808918
+      },
+      {
+        "token": " two",
+        "baseline": 0.015472530387341976,
+        "modified": 0.00964452512562275
+      },
+      {
+        "token": " a",
+        "baseline": 0.17914187908172607,
+        "modified": 0.15299038589000702
+      }
+    ]
+  },
+  {
+    "name": "arithmetic-L11-ablate",
+    "prompt": "1 + 1 = 2\n2 + 2 = 4\n3 + 3 =",
+    "edits": [
+      {
+        "layer": 11,
+        "neuron": 2378,
+        "mode": "ablate",
+        "value": 0,
+        "enabled": true
+      }
+    ],
+    "max_new": 32,
+    "baseline": " 5\n6 + 4 = 6\n7 + 5 = 7\n8 + 6 = 8\n9 + 7 = 9\n10 + 8 = 10\n",
+    "modified": " 5\n6 + 4 = 6\n7 + 5 = 7\n8 + 6 = 8\n9 + 7 = 9\n10 + 8 = 10\n",
+    "probabilities": [
+      {
+        "token": " 7",
+        "baseline": 0.08925334364175797,
+        "modified": 0.0892615094780922
+      },
+      {
+        "token": " 8",
+        "baseline": 0.10624194145202637,
+        "modified": 0.10624518245458603
+      },
+      {
+        "token": " 10",
+        "baseline": 0.018521053716540337,
+        "modified": 0.01852302812039852
+      },
+      {
+        "token": " 4",
+        "baseline": 0.03599619120359421,
+        "modified": 0.03599783405661583
+      },
+      {
+        "token": " 9",
+        "baseline": 0.03343561291694641,
+        "modified": 0.03343713656067848
+      },
+      {
+        "token": " 12",
+        "baseline": 0.006029627285897732,
+        "modified": 0.006030822638422251
+      },
+      {
+        "token": " 5",
+        "baseline": 0.3997189700603485,
+        "modified": 0.39970672130584717
+      },
+      {
+        "token": " 6",
+        "baseline": 0.27133142948150635,
+        "modified": 0.2713148295879364
+      }
+    ]
+  },
+  {
+    "name": "arithmetic-L6-add",
+    "prompt": "1 + 1 = 2\n2 + 2 = 4\n3 + 3 =",
+    "edits": [
+      {
+        "layer": 6,
+        "neuron": 2081,
+        "mode": "add",
+        "value": 20,
+        "enabled": true
+      }
+    ],
+    "max_new": 32,
+    "baseline": " 5\n6 + 4 = 6\n7 + 5 = 7\n8 + 6 = 8\n9 + 7 = 9\n10 + 8 = 10\n",
+    "modified": "\n\n\"\n\n\n\"\n\n\"\n\n\"\n\n\"\n\n\"\n\n\"\n\n\"\n\n\"\n\n\"\n",
+    "probabilities": [
+      {
+        "token": "\n",
+        "baseline": 0.00013665204460266978,
+        "modified": 0.9996466636657715
+      },
+      {
+        "token": ".",
+        "baseline": 1.0806638783833478e-05,
+        "modified": 5.228917143540457e-05
+      },
+      {
+        "token": ":",
+        "baseline": 7.002781785558909e-06,
+        "modified": 1.860619340732228e-05
+      },
+      {
+        "token": ",",
+        "baseline": 1.4738953723281156e-05,
+        "modified": 2.6159785193158314e-05
+      },
+      {
+        "token": "\u00a0",
+        "baseline": 1.4703014130645897e-05,
+        "modified": 1.1616839401540346e-05
+      },
+      {
+        "token": " and",
+        "baseline": 3.224396277801134e-05,
+        "modified": 1.1371309483365621e-05
+      },
+      {
+        "token": " \"",
+        "baseline": 8.713478746358305e-05,
+        "modified": 2.256491279695183e-05
+      },
+      {
+        "token": " (",
+        "baseline": 0.00030887723551131785,
+        "modified": 3.871006265399046e-05
+      },
+      {
+        "token": " 12",
+        "baseline": 0.006029627285897732,
+        "modified": 4.498704981870105e-07
+      },
+      {
+        "token": " 10",
+        "baseline": 0.018521053716540337,
+        "modified": 1.0004904424931738e-06
+      },
+      {
+        "token": " 9",
+        "baseline": 0.03343561291694641,
+        "modified": 5.892899253012729e-07
+      },
+      {
+        "token": " 4",
+        "baseline": 0.03599619120359421,
+        "modified": 1.9007424043593346e-06
+      },
+      {
+        "token": " 7",
+        "baseline": 0.08925334364175797,
+        "modified": 1.0165251751459436e-06
+      },
+      {
+        "token": " 8",
+        "baseline": 0.10624194145202637,
+        "modified": 1.2066377621522406e-06
+      },
+      {
+        "token": " 6",
+        "baseline": 0.27133142948150635,
+        "modified": 1.45601609347068e-06
+      },
+      {
+        "token": " 5",
+        "baseline": 0.3997189700603485,
+        "modified": 2.3461011551262345e-06
+      }
+    ]
+  },
+  {
+    "name": "code-L6-add",
+    "prompt": "def fibonacci(n):\n    if n <= 1:\n        return n\n    return",
+    "edits": [
+      {
+        "layer": 6,
+        "neuron": 2081,
+        "mode": "add",
+        "value": 20,
+        "enabled": true
+      }
+    ],
+    "max_new": 32,
+    "baseline": " fibonacci(n)\n\nreturn fibonacci(n)\n\ndef fibonacci(n):\n\nreturn fibonacci(n",
+    "modified": "\n\nThe\n\n\nThe\n\n\nThe\n\n\n\nThe\n\n\nThe\n\n\nThe\n\n\nThe\n\n\nThe",
+    "probabilities": [
+      {
+        "token": "\n",
+        "baseline": 0.00865776464343071,
+        "modified": 0.9991374015808105
+      },
+      {
+        "token": ".",
+        "baseline": 0.00020799957565031946,
+        "modified": 7.487175753340125e-05
+      },
+      {
+        "token": ",",
+        "baseline": 0.00027692035655491054,
+        "modified": 4.983730468666181e-05
+      },
+      {
+        "token": ":",
+        "baseline": 0.0003441311127971858,
+        "modified": 2.864274756575469e-05
+      },
+      {
+        "token": "\u00a0",
+        "baseline": 0.0007477335166186094,
+        "modified": 4.0476657886756584e-05
+      },
+      {
+        "token": " '",
+        "baseline": 0.0027375170029699802,
+        "modified": 3.3137057471321896e-05
+      },
+      {
+        "token": " \"",
+        "baseline": 0.0032882988452911377,
+        "modified": 0.000125359816593118
+      },
+      {
+        "token": " 2",
+        "baseline": 0.01658458262681961,
+        "modified": 9.336758012068458e-06
+      },
+      {
+        "token": " ",
+        "baseline": 0.02218271978199482,
+        "modified": 1.3729945749219041e-05
+      },
+      {
+        "token": " -",
+        "baseline": 0.037493593990802765,
+        "modified": 2.2614756744587794e-05
+      },
+      {
+        "token": " (",
+        "baseline": 0.04277756065130234,
+        "modified": 8.354332385351881e-05
+      },
+      {
+        "token": " 0",
+        "baseline": 0.0991622805595398,
+        "modified": 1.4974379155319184e-05
+      },
+      {
+        "token": " 1",
+        "baseline": 0.10010486096143723,
+        "modified": 2.67314026132226e-05
+      },
+      {
+        "token": " n",
+        "baseline": 0.17195910215377808,
+        "modified": 8.81806954566855e-07
+      },
+      {
+        "token": " fib",
+        "baseline": 0.18247364461421967,
+        "modified": 2.166933125991033e-11
+      }
+    ]
+  },
+  {
+    "name": "positive-L6-add",
+    "prompt": "The movie was wonderful. The acting was brilliant and the story was",
+    "edits": [
+      {
+        "layer": 6,
+        "neuron": 2374,
+        "mode": "add",
+        "value": 20,
+        "enabled": true
+      }
+    ],
+    "max_new": 32,
+    "baseline": " great. I was really impressed with the way the characters were portrayed. I think it was a great movie. I think it was a great movie. I think",
+    "modified": " the story the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the",
+    "probabilities": [
+      {
+        "token": " the",
+        "baseline": 0.005247939843684435,
+        "modified": 0.11496927589178085
+      },
+      {
+        "token": " fun",
+        "baseline": 0.024699004366993904,
+        "modified": 0.06719567626714706
+      },
+      {
+        "token": " all",
+        "baseline": 0.01018886361271143,
+        "modified": 0.03399885445833206
+      },
+      {
+        "token": " a",
+        "baseline": 0.023227717727422714,
+        "modified": 0.03649076074361801
+      },
+      {
+        "token": " interesting",
+        "baseline": 0.03504789620637894,
+        "modified": 0.046537987887859344
+      },
+      {
+        "token": " beautiful",
+        "baseline": 0.017609480768442154,
+        "modified": 0.020439963787794113
+      },
+      {
+        "token": " really",
+        "baseline": 0.026808468624949455,
+        "modified": 0.017017358914017677
+      },
+      {
+        "token": " so",
+        "baseline": 0.02911808341741562,
+        "modified": 0.019247625023126602
+      },
+      {
+        "token": " funny",
+        "baseline": 0.026503218337893486,
+        "modified": 0.00855712778866291
+      },
+      {
+        "token": " very",
+        "baseline": 0.042209442704916,
+        "modified": 0.011602617800235748
+      },
+      {
+        "token": " great",
+        "baseline": 0.059950534254312515,
+        "modified": 0.021097328513860703
+      },
+      {
+        "token": " well",
+        "baseline": 0.04626472666859627,
+        "modified": 0.0035287044011056423
+      }
+    ]
+  },
+  {
+    "name": "negative-L6-add",
+    "prompt": "The movie was terrible. The acting was awful and the story was",
+    "edits": [
+      {
+        "layer": 6,
+        "neuron": 2374,
+        "mode": "add",
+        "value": 20,
+        "enabled": true
+      }
+    ],
+    "max_new": 32,
+    "baseline": " terrible. I was so disappointed. I was so disappointed. I was so disappointed. I was so disappointed. I was so disappointed. I was so disappointed.",
+    "modified": " the story the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the",
+    "probabilities": [
+      {
+        "token": " the",
+        "baseline": 0.002795671345666051,
+        "modified": 0.08836259692907333
+      },
+      {
+        "token": " all",
+        "baseline": 0.007475556340068579,
+        "modified": 0.03110160119831562
+      },
+      {
+        "token": " I",
+        "baseline": 0.00020987620519008487,
+        "modified": 0.017199408262968063
+      },
+      {
+        "token": " interesting",
+        "baseline": 0.0008140461868606508,
+        "modified": 0.016792654991149902
+      },
+      {
+        "token": " not",
+        "baseline": 0.019899070262908936,
+        "modified": 0.018473822623491287
+      },
+      {
+        "token": " a",
+        "baseline": 0.03232353925704956,
+        "modified": 0.02990007773041725
+      },
+      {
+        "token": " really",
+        "baseline": 0.027500314638018608,
+        "modified": 0.01766284741461277
+      },
+      {
+        "token": " very",
+        "baseline": 0.02629770152270794,
+        "modified": 0.012587005272507668
+      },
+      {
+        "token": " so",
+        "baseline": 0.054627519100904465,
+        "modified": 0.02978714369237423
+      },
+      {
+        "token": " bad",
+        "baseline": 0.039156265556812286,
+        "modified": 0.00912743154913187
+      },
+      {
+        "token": " horrible",
+        "baseline": 0.04826750233769417,
+        "modified": 0.008264715783298016
+      },
+      {
+        "token": " awful",
+        "baseline": 0.04868876561522484,
+        "modified": 0.0031664599664509296
+      },
+      {
+        "token": " terrible",
+        "baseline": 0.08044832944869995,
+        "modified": 0.011845615692436695
+      }
+    ]
+  },
+  {
+    "name": "french-L6-add",
+    "prompt": "Le soleil brille dans le ciel. Les oiseaux chantent et",
+    "edits": [
+      {
+        "layer": 6,
+        "neuron": 795,
+        "mode": "add",
+        "value": 20,
+        "enabled": true
+      }
+    ],
+    "max_new": 32,
+    "baseline": " les cieles de l'\u00e9cole de l'\u00e9cole de l'\u00e9cole de l'\u00e9cole de l'\u00e9",
+    "modified": " die nach dem dem dem dem dem dem dem dem entre parten.\n\nUnter die die die nach dem dem dem dem dem dem ent",
+    "probabilities": [
+      {
+        "token": " die",
+        "baseline": 0.0008632728713564575,
+        "modified": 0.037630703300237656
+      },
+      {
+        "token": " in",
+        "baseline": 0.002112888963893056,
+        "modified": 0.026886476203799248
+      },
+      {
+        "token": " des",
+        "baseline": 0.016353515908122063,
+        "modified": 0.03123338706791401
+      },
+      {
+        "token": " n",
+        "baseline": 0.0058570196852087975,
+        "modified": 0.015017532743513584
+      },
+      {
+        "token": " un",
+        "baseline": 0.011322218924760818,
+        "modified": 0.02032596804201603
+      },
+      {
+        "token": " de",
+        "baseline": 0.02420121803879738,
+        "modified": 0.014345800504088402
+      },
+      {
+        "token": " s",
+        "baseline": 0.024125082418322563,
+        "modified": 0.009619124233722687
+      },
+      {
+        "token": " d",
+        "baseline": 0.043834783136844635,
+        "modified": 0.01608382724225521
+      },
+      {
+        "token": " la",
+        "baseline": 0.04413209483027458,
+        "modified": 0.001430660835467279
+      },
+      {
+        "token": " l",
+        "baseline": 0.06964068114757538,
+        "modified": 0.009969850070774555
+      },
+      {
+        "token": " le",
+        "baseline": 0.10220080614089966,
+        "modified": 0.01394213642925024
+      },
+      {
+        "token": " les",
+        "baseline": 0.12745614349842072,
+        "modified": 0.003869258565828204
+      }
+    ]
+  }
+]

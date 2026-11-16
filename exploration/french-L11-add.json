@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "model": "openai-community/gpt2",
+  "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+  "prompt": "Le soleil brille dans le ciel. Les oiseaux chantent et",
+  "edits": [
+    {
+      "layer": 11,
+      "neuron": 2910,
+      "mode": "add",
+      "value": 20,
+      "enabled": true
+    }
+  ],
+  "max_new": 32,
+  "result": {
+    "prompt": "Le soleil brille dans le ciel. Les oiseaux chantent et",
+    "edits": [
+      {
+        "layer": 11,
+        "neuron": 2910,
+        "mode": "add",
+        "value": 20,
+        "enabled": true
+      }
+    ],
+    "max_new": 32,
+    "baseline": " les cieles de l'\u00e9cole de l'\u00e9cole de l'\u00e9cole de l'\u00e9cole de l'\u00e9",
+    "modified": " le ciel.\n\nLe ciel dans le ciel.\n\nLe ciel dans le ciel.\n\nLe ciel d",
+    "probabilities": [
+      {
+        "token": " d",
+        "baseline": 0.043834783136844635,
+        "modified": 0.05012841522693634
+      },
+      {
+        "token": " un",
+        "baseline": 0.011322218924760818,
+        "modified": 0.013179340399801731
+      },
+      {
+        "token": " s",
+        "baseline": 0.024125082418322563,
+        "modified": 0.02574804611504078
+      },
+      {
+        "token": " de",
+        "baseline": 0.02420121803879738,
+        "modified": 0.019917810335755348
+      },
+      {
+        "token": " des",
+        "baseline": 0.016353515908122063,
+        "modified": 0.009696063585579395
+      },
+      {
+        "token": " l",
+        "baseline": 0.06964068114757538,
+        "modified": 0.054702334105968475
+      },
+      {
+        "token": " la",
+        "baseline": 0.04413209483027458,
+        "modified": 0.028239456936717033
+      },
+      {
+        "token": " le",
+        "baseline": 0.10220080614089966,
+        "modified": 0.060172341763973236
+      },
+      {
+        "token": " les",
+        "baseline": 0.12745614349842072,
+        "modified": 0.05747470259666443
+      }
+    ]
+  }
+}

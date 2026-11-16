@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "model": "openai-community/gpt2",
+  "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+  "prompt": "The capital of France is",
+  "edits": [
+    {
+      "layer": 11,
+      "neuron": 2910,
+      "mode": "add",
+      "value": 20,
+      "enabled": true
+    }
+  ],
+  "max_new": 32,
+  "result": {
+    "prompt": "The capital of France is",
+    "edits": [
+      {
+        "layer": 11,
+        "neuron": 2910,
+        "mode": "add",
+        "value": 20,
+        "enabled": true
+      }
+    ],
+    "max_new": 32,
+    "baseline": " the capital of the French Republic, and the capital of the French Republic is the capital of the French Republic.\n\nThe French Republic is the capital of the",
+    "modified": " the capital of the French Republic.\n\nThe French Republic is a state of the art, with a population of over 1.5 million.\n\nThe",
+    "probabilities": [
+      {
+        "token": " the",
+        "baseline": 0.084590844810009,
+        "modified": 0.10247690975666046
+      },
+      {
+        "token": " in",
+        "baseline": 0.026641054078936577,
+        "modified": 0.040474917739629745
+      },
+      {
+        "token": " on",
+        "baseline": 0.013387483544647694,
+        "modified": 0.023395970463752747
+      },
+      {
+        "token": " a",
+        "baseline": 0.046159274876117706,
+        "modified": 0.055341221392154694
+      },
+      {
+        "token": " not",
+        "baseline": 0.023828651756048203,
+        "modified": 0.021651936694979668
+      },
+      {
+        "token": " also",
+        "baseline": 0.026405513286590576,
+        "modified": 0.022240441292524338
+      },
+      {
+        "token": " France",
+        "baseline": 0.03237666189670563,
+        "modified": 0.018993237987160683
+      },
+      {
+        "token": " Paris",
+        "baseline": 0.03224453330039978,
+        "modified": 0.015439625829458237
+      },
+      {
+        "token": " now",
+        "baseline": 0.047946080565452576,
+        "modified": 0.027404043823480606
+      }
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "version": 1,
+  "model": "openai-community/gpt2",
+  "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+  "prompt": "The sun is shining in the sky. The birds are singing and",
+  "edits": [
+    {
+      "layer": 6,
+      "neuron": 795,
+      "mode": "add",
+      "value": 20,
+      "enabled": true
+    }
+  ],
+  "max_new": 32,
+  "result": {
+    "prompt": "The sun is shining in the sky. The birds are singing and",
+    "edits": [
+      {
+        "layer": 6,
+        "neuron": 795,
+        "mode": "add",
+        "value": 20,
+        "enabled": true
+      }
+    ],
+    "max_new": 32,
+    "baseline": " the birds are singing. The birds are singing and the birds are singing. The birds are singing and the birds are singing. The birds are singing and the birds",
+    "modified": " in the kreis, kon kreis, kon kreis, kon kreis, ken kreis.\n\n",
+    "probabilities": [
+      {
+        "token": " in",
+        "baseline": 0.0027865907177329063,
+        "modified": 0.04895472154021263
+      },
+      {
+        "token": " f",
+        "baseline": 0.0017118901014328003,
+        "modified": 0.022821709513664246
+      },
+      {
+        "token": " k",
+        "baseline": 0.0002301482018083334,
+        "modified": 0.015394065529108047
+      },
+      {
+        "token": " en",
+        "baseline": 1.437907758372603e-05,
+        "modified": 0.012986364774405956
+      },
+      {
+        "token": " n",
+        "baseline": 0.0004160107346251607,
+        "modified": 0.011709758080542088
+      },
+      {
+        "token": " se",
+        "baseline": 0.00018076809647027403,
+        "modified": 0.011110963299870491
+      },
+      {
+        "token": " m",
+        "baseline": 0.00142325134947896,
+        "modified": 0.011907325126230717
+      },
+      {
+        "token": " p",
+        "baseline": 0.0015714821638539433,
+        "modified": 0.011023824103176594
+      },
+      {
+        "token": " are",
+        "baseline": 0.012483774684369564,
+        "modified": 0.0014846225967630744
+      },
+      {
+        "token": " fl",
+        "baseline": 0.018687967211008072,
+        "modified": 0.001625297823920846
+      },
+      {
+        "token": " playing",
+        "baseline": 0.018804240971803665,
+        "modified": 7.14209527359344e-05
+      },
+      {
+        "token": " humming",
+        "baseline": 0.020310062915086746,
+        "modified": 2.459594907122664e-05
+      },
+      {
+        "token": " they",
+        "baseline": 0.032129935920238495,
+        "modified": 0.001183220068924129
+      },
+      {
+        "token": " dancing",
+        "baseline": 0.06511802226305008,
+        "modified": 1.5403968063765205e-05
+      },
+      {
+        "token": " singing",
+        "baseline": 0.08070072531700134,
+        "modified": 8.458700904157013e-05
+      },
+      {
+        "token": " the",
+        "baseline": 0.24804717302322388,
+        "modified": 0.00342972157523036
+      }
+    ]
+  }
+}

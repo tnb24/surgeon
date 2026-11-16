@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "model": "openai-community/gpt2",
+  "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+  "prompt": "The capital of France is",
+  "edits": [
+    {
+      "layer": 11,
+      "neuron": 2910,
+      "mode": "ablate",
+      "value": 0,
+      "enabled": true
+    }
+  ],
+  "max_new": 32,
+  "result": {
+    "prompt": "The capital of France is",
+    "edits": [
+      {
+        "layer": 11,
+        "neuron": 2910,
+        "mode": "ablate",
+        "value": 0,
+        "enabled": true
+      }
+    ],
+    "max_new": 32,
+    "baseline": " the capital of the French Republic, and the capital of the French Republic is the capital of the French Republic.\n\nThe French Republic is the capital of the",
+    "modified": " the capital of the French Republic, and the capital of the Republic of Luxembourg. The capital of the Republic of Luxembourg is the capital of the Republic of France.",
+    "probabilities": [
+      {
+        "token": " now",
+        "baseline": 0.047946080565452576,
+        "modified": 0.05315070599317551
+      },
+      {
+        "token": " Paris",
+        "baseline": 0.03224453330039978,
+        "modified": 0.03703955560922623
+      },
+      {
+        "token": " France",
+        "baseline": 0.03237666189670563,
+        "modified": 0.03546331822872162
+      },
+      {
+        "token": " home",
+        "baseline": 0.023348696529865265,
+        "modified": 0.026158787310123444
+      },
+      {
+        "token": " also",
+        "baseline": 0.026405513286590576,
+        "modified": 0.02677585743367672
+      },
+      {
+        "token": " not",
+        "baseline": 0.023828651756048203,
+        "modified": 0.02377844601869583
+      },
+      {
+        "token": " a",
+        "baseline": 0.046159274876117706,
+        "modified": 0.043226055800914764
+      },
+      {
+        "token": " in",
+        "baseline": 0.026641054078936577,
+        "modified": 0.02362113818526268
+      },
+      {
+        "token": " the",
+        "baseline": 0.084590844810009,
+        "modified": 0.07900121062994003
+      }
+    ]
+  }
+}

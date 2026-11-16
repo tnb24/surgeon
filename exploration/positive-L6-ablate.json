@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "model": "openai-community/gpt2",
+  "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+  "prompt": "The movie was wonderful. The acting was brilliant and the story was",
+  "edits": [
+    {
+      "layer": 6,
+      "neuron": 2374,
+      "mode": "ablate",
+      "value": 0,
+      "enabled": true
+    }
+  ],
+  "max_new": 32,
+  "result": {
+    "prompt": "The movie was wonderful. The acting was brilliant and the story was",
+    "edits": [
+      {
+        "layer": 6,
+        "neuron": 2374,
+        "mode": "ablate",
+        "value": 0,
+        "enabled": true
+      }
+    ],
+    "max_new": 32,
+    "baseline": " great. I was really impressed with the way the characters were portrayed. I think it was a great movie. I think it was a great movie. I think",
+    "modified": " great. I was really impressed with the way the characters were portrayed. I think it was a great movie. I think it was a great movie. I think",
+    "probabilities": [
+      {
+        "token": " great",
+        "baseline": 0.059950534254312515,
+        "modified": 0.06029504910111427
+      },
+      {
+        "token": " really",
+        "baseline": 0.026808468624949455,
+        "modified": 0.027113940566778183
+      },
+      {
+        "token": " well",
+        "baseline": 0.04626472666859627,
+        "modified": 0.04637925326824188
+      },
+      {
+        "token": " so",
+        "baseline": 0.02911808341741562,
+        "modified": 0.029119210317730904
+      },
+      {
+        "token": " very",
+        "baseline": 0.042209442704916,
+        "modified": 0.042020853608846664
+      },
+      {
+        "token": " fun",
+        "baseline": 0.024699004366993904,
+        "modified": 0.02395116537809372
+      },
+      {
+        "token": " funny",
+        "baseline": 0.026503218337893486,
+        "modified": 0.02563847228884697
+      },
+      {
+        "token": " interesting",
+        "baseline": 0.03504789620637894,
+        "modified": 0.03403211757540703
+      }
+    ]
+  }
+}

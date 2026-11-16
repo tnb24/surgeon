@@ -1,0 +1,113 @@
+{
+  "version": 1,
+  "model": "openai-community/gpt2",
+  "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+  "prompt": "def fibonacci(n):\n    if n <= 1:\n        return n\n    return",
+  "edits": [
+    {
+      "layer": 6,
+      "neuron": 2081,
+      "mode": "add",
+      "value": 20,
+      "enabled": true
+    }
+  ],
+  "max_new": 32,
+  "result": {
+    "prompt": "def fibonacci(n):\n    if n <= 1:\n        return n\n    return",
+    "edits": [
+      {
+        "layer": 6,
+        "neuron": 2081,
+        "mode": "add",
+        "value": 20,
+        "enabled": true
+      }
+    ],
+    "max_new": 32,
+    "baseline": " fibonacci(n)\n\nreturn fibonacci(n)\n\ndef fibonacci(n):\n\nreturn fibonacci(n",
+    "modified": "\n\nThe\n\n\nThe\n\n\nThe\n\n\n\nThe\n\n\nThe\n\n\nThe\n\n\nThe\n\n\nThe",
+    "timing": {
+      "baseline": 1.8998105000064243,
+      "modified": 1.794911899996805
+    },
+    "probabilities": [
+      {
+        "token": "\n",
+        "baseline": 0.00865776464343071,
+        "modified": 0.9991374015808105
+      },
+      {
+        "token": ".",
+        "baseline": 0.00020799957565031946,
+        "modified": 0.00007487175753340125
+      },
+      {
+        "token": ",",
+        "baseline": 0.00027692035655491054,
+        "modified": 0.00004983730468666181
+      },
+      {
+        "token": ":",
+        "baseline": 0.0003441311127971858,
+        "modified": 0.00002864274756575469
+      },
+      {
+        "token": " ",
+        "baseline": 0.0007477335166186094,
+        "modified": 0.000040476657886756584
+      },
+      {
+        "token": " '",
+        "baseline": 0.0027375170029699802,
+        "modified": 0.000033137057471321896
+      },
+      {
+        "token": " \"",
+        "baseline": 0.0032882988452911377,
+        "modified": 0.000125359816593118
+      },
+      {
+        "token": " 2",
+        "baseline": 0.01658458262681961,
+        "modified": 0.000009336758012068458
+      },
+      {
+        "token": " ",
+        "baseline": 0.02218271978199482,
+        "modified": 0.000013729945749219041
+      },
+      {
+        "token": " -",
+        "baseline": 0.037493593990802765,
+        "modified": 0.000022614756744587794
+      },
+      {
+        "token": " (",
+        "baseline": 0.04277756065130234,
+        "modified": 0.00008354332385351881
+      },
+      {
+        "token": " 0",
+        "baseline": 0.0991622805595398,
+        "modified": 0.000014974379155319184
+      },
+      {
+        "token": " 1",
+        "baseline": 0.10010486096143723,
+        "modified": 0.0000267314026132226
+      },
+      {
+        "token": " n",
+        "baseline": 0.17195910215377808,
+        "modified": 8.81806954566855e-7
+      },
+      {
+        "token": " fib",
+        "baseline": 0.18247364461421967,
+        "modified": 2.166933125991033e-11
+      }
+    ],
+    "cancelled": false
+  }
+}

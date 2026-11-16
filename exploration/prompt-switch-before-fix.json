@@ -1,0 +1,6 @@
+{
+  "errors": [
+    "Cannot read properties of undefined (reading 'toFixed')"
+  ],
+  "bodyText": ""
+}

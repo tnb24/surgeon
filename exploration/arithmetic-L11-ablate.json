@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "model": "openai-community/gpt2",
+  "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+  "prompt": "1 + 1 = 2\n2 + 2 = 4\n3 + 3 =",
+  "edits": [
+    {
+      "layer": 11,
+      "neuron": 2378,
+      "mode": "ablate",
+      "value": 0,
+      "enabled": true
+    }
+  ],
+  "max_new": 32,
+  "result": {
+    "prompt": "1 + 1 = 2\n2 + 2 = 4\n3 + 3 =",
+    "edits": [
+      {
+        "layer": 11,
+        "neuron": 2378,
+        "mode": "ablate",
+        "value": 0,
+        "enabled": true
+      }
+    ],
+    "max_new": 32,
+    "baseline": " 5\n6 + 4 = 6\n7 + 5 = 7\n8 + 6 = 8\n9 + 7 = 9\n10 + 8 = 10\n",
+    "modified": " 5\n6 + 4 = 6\n7 + 5 = 7\n8 + 6 = 8\n9 + 7 = 9\n10 + 8 = 10\n",
+    "timing": {
+      "baseline": 1.744132100007846,
+      "modified": 1.9127029000082985
+    },
+    "probabilities": [
+      {
+        "token": " 7",
+        "baseline": 0.08925334364175797,
+        "modified": 0.0892615094780922
+      },
+      {
+        "token": " 8",
+        "baseline": 0.10624194145202637,
+        "modified": 0.10624518245458603
+      },
+      {
+        "token": " 10",
+        "baseline": 0.018521053716540337,
+        "modified": 0.01852302812039852
+      },
+      {
+        "token": " 4",
+        "baseline": 0.03599619120359421,
+        "modified": 0.03599783405661583
+      },
+      {
+        "token": " 9",
+        "baseline": 0.03343561291694641,
+        "modified": 0.03343713656067848
+      },
+      {
+        "token": " 12",
+        "baseline": 0.006029627285897732,
+        "modified": 0.006030822638422251
+      },
+      {
+        "token": " 5",
+        "baseline": 0.3997189700603485,
+        "modified": 0.39970672130584717
+      },
+      {
+        "token": " 6",
+        "baseline": 0.27133142948150635,
+        "modified": 0.2713148295879364
+      }
+    ],
+    "cancelled": false
+  }
+}

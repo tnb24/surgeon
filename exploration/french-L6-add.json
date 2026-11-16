@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "model": "openai-community/gpt2",
+  "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+  "prompt": "Le soleil brille dans le ciel. Les oiseaux chantent et",
+  "edits": [
+    {
+      "layer": 6,
+      "neuron": 795,
+      "mode": "add",
+      "value": 20,
+      "enabled": true
+    }
+  ],
+  "max_new": 32,
+  "result": {
+    "prompt": "Le soleil brille dans le ciel. Les oiseaux chantent et",
+    "edits": [
+      {
+        "layer": 6,
+        "neuron": 795,
+        "mode": "add",
+        "value": 20,
+        "enabled": true
+      }
+    ],
+    "max_new": 32,
+    "baseline": " les cieles de l'école de l'école de l'école de l'école de l'é",
+    "modified": " die nach dem dem dem dem dem dem dem dem entre parten.\n\nUnter die die die nach dem dem dem dem dem dem ent",
+    "timing": {
+      "baseline": 1.6501468999922508,
+      "modified": 1.8371495999890612
+    },
+    "probabilities": [
+      {
+        "token": " die",
+        "baseline": 0.0008632728713564575,
+        "modified": 0.037630703300237656
+      },
+      {
+        "token": " in",
+        "baseline": 0.002112888963893056,
+        "modified": 0.026886476203799248
+      },
+      {
+        "token": " des",
+        "baseline": 0.016353515908122063,
+        "modified": 0.03123338706791401
+      },
+      {
+        "token": " n",
+        "baseline": 0.0058570196852087975,
+        "modified": 0.015017532743513584
+      },
+      {
+        "token": " un",
+        "baseline": 0.011322218924760818,
+        "modified": 0.02032596804201603
+      },
+      {
+        "token": " de",
+        "baseline": 0.02420121803879738,
+        "modified": 0.014345800504088402
+      },
+      {
+        "token": " s",
+        "baseline": 0.024125082418322563,
+        "modified": 0.009619124233722687
+      },
+      {
+        "token": " d",
+        "baseline": 0.043834783136844635,
+        "modified": 0.01608382724225521
+      },
+      {
+        "token": " la",
+        "baseline": 0.04413209483027458,
+        "modified": 0.001430660835467279
+      },
+      {
+        "token": " l",
+        "baseline": 0.06964068114757538,
+        "modified": 0.009969850070774555
+      },
+      {
+        "token": " le",
+        "baseline": 0.10220080614089966,
+        "modified": 0.01394213642925024
+      },
+      {
+        "token": " les",
+        "baseline": 0.12745614349842072,
+        "modified": 0.003869258565828204
+      }
+    ],
+    "cancelled": false
+  }
+}

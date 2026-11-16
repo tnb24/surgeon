@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "model": "openai-community/gpt2",
+  "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+  "prompt": "The movie was wonderful. The acting was brilliant and the story was",
+  "edits": [
+    {
+      "layer": 6,
+      "neuron": 2374,
+      "mode": "add",
+      "value": 20,
+      "enabled": true
+    }
+  ],
+  "max_new": 32,
+  "result": {
+    "prompt": "The movie was wonderful. The acting was brilliant and the story was",
+    "edits": [
+      {
+        "layer": 6,
+        "neuron": 2374,
+        "mode": "add",
+        "value": 20,
+        "enabled": true
+      }
+    ],
+    "max_new": 32,
+    "baseline": " great. I was really impressed with the way the characters were portrayed. I think it was a great movie. I think it was a great movie. I think",
+    "modified": " the story the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the",
+    "timing": {
+      "baseline": 1.7583880000020145,
+      "modified": 1.8271651000104612
+    },
+    "probabilities": [
+      {
+        "token": " the",
+        "baseline": 0.005247939843684435,
+        "modified": 0.11496927589178085
+      },
+      {
+        "token": " fun",
+        "baseline": 0.024699004366993904,
+        "modified": 0.06719567626714706
+      },
+      {
+        "token": " all",
+        "baseline": 0.01018886361271143,
+        "modified": 0.03399885445833206
+      },
+      {
+        "token": " a",
+        "baseline": 0.023227717727422714,
+        "modified": 0.03649076074361801
+      },
+      {
+        "token": " interesting",
+        "baseline": 0.03504789620637894,
+        "modified": 0.046537987887859344
+      },
+      {
+        "token": " beautiful",
+        "baseline": 0.017609480768442154,
+        "modified": 0.020439963787794113
+      },
+      {
+        "token": " really",
+        "baseline": 0.026808468624949455,
+        "modified": 0.017017358914017677
+      },
+      {
+        "token": " so",
+        "baseline": 0.02911808341741562,
+        "modified": 0.019247625023126602
+      },
+      {
+        "token": " funny",
+        "baseline": 0.026503218337893486,
+        "modified": 0.00855712778866291
+      },
+      {
+        "token": " very",
+        "baseline": 0.042209442704916,
+        "modified": 0.011602617800235748
+      },
+      {
+        "token": " great",
+        "baseline": 0.059950534254312515,
+        "modified": 0.021097328513860703
+      },
+      {
+        "token": " well",
+        "baseline": 0.04626472666859627,
+        "modified": 0.0035287044011056423
+      }
+    ],
+    "cancelled": false
+  }
+}

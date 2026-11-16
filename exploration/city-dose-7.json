@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "model": "openai-community/gpt2",
+  "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+  "prompt": "The city was quiet after the rain. In the distance,",
+  "edits": [
+    {
+      "layer": 6,
+      "neuron": 2130,
+      "mode": "add",
+      "value": 7,
+      "enabled": true
+    }
+  ],
+  "max_new": 32,
+  "result": {
+    "prompt": "The city was quiet after the rain. In the distance,",
+    "edits": [
+      {
+        "layer": 6,
+        "neuron": 2130,
+        "mode": "add",
+        "value": 7,
+        "enabled": true
+      }
+    ],
+    "max_new": 32,
+    "baseline": " a man stood in the middle of the street, his face covered with a mask. He was wearing a black hooded sweatshirt and a black jacket. He",
+    "modified": " a small group of people were gathering around the fire.\n\n\"What's going on?\"\n\n\"The city is getting colder. The wind is blowing",
+    "probabilities": [
+      {
+        "token": " the",
+        "baseline": 0.1381431519985199,
+        "modified": 0.15137764811515808
+      },
+      {
+        "token": " there",
+        "baseline": 0.042520396411418915,
+        "modified": 0.04849221929907799
+      },
+      {
+        "token": " people",
+        "baseline": 0.014068244025111198,
+        "modified": 0.019194770604372025
+      },
+      {
+        "token": " I",
+        "baseline": 0.02339704893529415,
+        "modified": 0.024391233921051025
+      },
+      {
+        "token": " it",
+        "baseline": 0.015268486924469471,
+        "modified": 0.015945715829730034
+      },
+      {
+        "token": " some",
+        "baseline": 0.012348582036793232,
+        "modified": 0.011765170842409134
+      },
+      {
+        "token": " an",
+        "baseline": 0.017846858128905296,
+        "modified": 0.016879852861166
+      },
+      {
+        "token": " two",
+        "baseline": 0.015472530387341976,
+        "modified": 0.010192555375397205
+      },
+      {
+        "token": " a",
+        "baseline": 0.17914187908172607,
+        "modified": 0.15561553835868835
+      }
+    ]
+  }
+}

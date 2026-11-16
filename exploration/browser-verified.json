@@ -1,0 +1,54 @@
+{
+  "verified": [
+    {
+      "name": "city-dose-8",
+      "text": [
+        "The city was quiet after the rain. In the distance, a man stood in the middle of the street, his face covered with a mask. He was wearing a black hooded sweatshirt and a black jacket. He",
+        "The city was quiet after the rain. In the distance, the wind was blowing.\n\n\"I'm not sure what's going on here,\" said the girl.\n\n\"I don't know what's going"
+      ]
+    },
+    {
+      "name": "arithmetic-L11-ablate",
+      "text": [
+        "1 + 1 = 2\n2 + 2 = 4\n3 + 3 = 5\n6 + 4 = 6\n7 + 5 = 7\n8 + 6 = 8\n9 + 7 = 9\n10 + 8 = 10\n",
+        "1 + 1 = 2\n2 + 2 = 4\n3 + 3 = 5\n6 + 4 = 6\n7 + 5 = 7\n8 + 6 = 8\n9 + 7 = 9\n10 + 8 = 10\n"
+      ]
+    },
+    {
+      "name": "arithmetic-L6-add",
+      "text": [
+        "1 + 1 = 2\n2 + 2 = 4\n3 + 3 = 5\n6 + 4 = 6\n7 + 5 = 7\n8 + 6 = 8\n9 + 7 = 9\n10 + 8 = 10\n",
+        "1 + 1 = 2\n2 + 2 = 4\n3 + 3 =\n\n\"\n\n\n\"\n\n\"\n\n\"\n\n\"\n\n\"\n\n\"\n\n\"\n\n\"\n\n\"\n"
+      ]
+    },
+    {
+      "name": "code-L6-add",
+      "text": [
+        "def fibonacci(n):\n    if n <= 1:\n        return n\n    return fibonacci(n)\n\nreturn fibonacci(n)\n\ndef fibonacci(n):\n\nreturn fibonacci(n",
+        "def fibonacci(n):\n    if n <= 1:\n        return n\n    return\n\nThe\n\n\nThe\n\n\nThe\n\n\n\nThe\n\n\nThe\n\n\nThe\n\n\nThe\n\n\nThe"
+      ]
+    },
+    {
+      "name": "positive-L6-add",
+      "text": [
+        "The movie was wonderful. The acting was brilliant and the story was great. I was really impressed with the way the characters were portrayed. I think it was a great movie. I think it was a great movie. I think",
+        "The movie was wonderful. The acting was brilliant and the story was the story the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the"
+      ]
+    },
+    {
+      "name": "negative-L6-add",
+      "text": [
+        "The movie was terrible. The acting was awful and the story was terrible. I was so disappointed. I was so disappointed. I was so disappointed. I was so disappointed. I was so disappointed. I was so disappointed.",
+        "The movie was terrible. The acting was awful and the story was the story the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the"
+      ]
+    },
+    {
+      "name": "french-L6-add",
+      "text": [
+        "Le soleil brille dans le ciel. Les oiseaux chantent et les cieles de l'école de l'école de l'école de l'école de l'é",
+        "Le soleil brille dans le ciel. Les oiseaux chantent et die nach dem dem dem dem dem dem dem dem entre parten.\n\nUnter die die die nach dem dem dem dem dem dem ent"
+      ]
+    }
+  ],
+  "errors": []
+}

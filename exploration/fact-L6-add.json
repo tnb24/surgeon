@@ -1,0 +1,88 @@
+{
+  "version": 1,
+  "model": "openai-community/gpt2",
+  "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+  "prompt": "The capital of France is",
+  "edits": [
+    {
+      "layer": 6,
+      "neuron": 1988,
+      "mode": "add",
+      "value": 20,
+      "enabled": true
+    }
+  ],
+  "max_new": 32,
+  "result": {
+    "prompt": "The capital of France is",
+    "edits": [
+      {
+        "layer": 6,
+        "neuron": 1988,
+        "mode": "add",
+        "value": 20,
+        "enabled": true
+      }
+    ],
+    "max_new": 32,
+    "baseline": " the capital of the French Republic, and the capital of the French Republic is the capital of the French Republic.\n\nThe French Republic is the capital of the",
+    "modified": " the French Empire, and its people have been the most prosperous and prosperous people in the world. The British Empire was the first to be independent, and the British",
+    "probabilities": [
+      {
+        "token": " the",
+        "baseline": 0.084590844810009,
+        "modified": 0.15583184361457825
+      },
+      {
+        "token": " one",
+        "baseline": 0.01129534374922514,
+        "modified": 0.027288779616355896
+      },
+      {
+        "token": " a",
+        "baseline": 0.046159274876117706,
+        "modified": 0.060057446360588074
+      },
+      {
+        "token": " known",
+        "baseline": 0.0094212107360363,
+        "modified": 0.011100105941295624
+      },
+      {
+        "token": " still",
+        "baseline": 0.015507256612181664,
+        "modified": 0.014238906092941761
+      },
+      {
+        "token": " not",
+        "baseline": 0.023828651756048203,
+        "modified": 0.020861027762293816
+      },
+      {
+        "token": " also",
+        "baseline": 0.026405513286590576,
+        "modified": 0.010102136991918087
+      },
+      {
+        "token": " in",
+        "baseline": 0.026641054078936577,
+        "modified": 0.009736277163028717
+      },
+      {
+        "token": " France",
+        "baseline": 0.03237666189670563,
+        "modified": 0.012560615316033363
+      },
+      {
+        "token": " Paris",
+        "baseline": 0.03224453330039978,
+        "modified": 0.0014876258792355657
+      },
+      {
+        "token": " now",
+        "baseline": 0.047946080565452576,
+        "modified": 0.011546160094439983
+      }
+    ]
+  }
+}
